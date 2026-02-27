@@ -1,13 +1,65 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CI002</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap" rel="stylesheet">
+
+    <style>
+        /* 基礎設定： Medium 風格與 Noto Serif TC 字體 */
+        body {
+            /* 將 Noto Serif TC 設為首選字體 */
+            font-family: 'Noto Serif TC', Georgia, 'Times New Roman', serif; 
+            background-color: #ffffff; 
+            color: #242424; 
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; 
+        }
+
+        /* 文章版面設計 */
+        .article-container {
+            max-width: 680px; 
+            width: 100%;
+            padding: 60px 20px; 
+        }
+
+        /* 標題設計 */
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700; /* 設定標題為粗體 (700) */
+            margin-bottom: 40px;
+            color: #111111; 
+        }
+
+        /* 段落文字設計 */
+        p {
+            font-size: 1.25rem; 
+            line-height: 2; 
+            margin-bottom: 24px;
+            font-weight: 400; /* 設定內文為標準粗細 (400) */
+        }
+
+        /* 強調文字 */
+        strong {
+            font-weight: 700; /* 設定強調文字為粗體 (700) */
+            color: #111111;
+        }
+    </style>
 </head>
 <body>
-    姓名：花偉喆
-    學號：S1131557
-    系級：資訊工程學系 二B
+
+    <div class="article-container">
+        <h1>個人資訊</h1>
+        <p><strong>姓名：</strong>花偉喆</p>
+        <p><strong>學號：</strong>S1131557</p>
+        <p><strong>系級：</strong>資訊工程學系 二B</p>
+    </div>
+
 </body>
 </html>
